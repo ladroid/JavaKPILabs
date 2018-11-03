@@ -1,4 +1,5 @@
-public class IllegalArgument extends RuntimeException {
+@SuppressWarnings("serial")
+public class IllegalArgument extends IllegalArgumentException {
     private int code;
     public IllegalArgument() {}
 

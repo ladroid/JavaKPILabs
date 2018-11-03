@@ -16,6 +16,7 @@ public class Controller {
         Scanner in = new Scanner(System.in);
         String choice = in.nextLine();
 
+        Scanner input = new Scanner(System.in);
         switch (MenuEnum.valueOf(choice.trim())) {
             case ENTER_INFO:
                 pm.enter();
@@ -24,10 +25,17 @@ public class Controller {
                 pv.readFromFile();
                 break;
             case SHOW_DIAGNOSE:
-                pv.ParseFile("test.txt", "Teeth");
+                System.out.println("Enter diagnose");
+                String diagnose = input.nextLine();
+                pv.ParseFile("test.txt", diagnose);
                 break;
             case SHOW_IN_RANGE:
-                pv.readInRange(pm, 1, 3);
+                System.out.println("Enter range from to");
+                int a = input.nextInt();
+                int b = input.nextInt();
+//                String a = in.nextLine();
+//                String b = in.nextLine();
+                pv.readInRange(pm, a, b);
                 break;
             default:
                 throw new IllegalArgument("Error", 1);

@@ -44,6 +44,10 @@ public class PatientModel {
         writeToFile();
     }
 
+    public void setMedicalCard(Integer medicalCard) {
+        this.medicalCard = medicalCard;
+    }
+
     public Integer getId() {
         return Id;
     }
