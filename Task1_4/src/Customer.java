@@ -8,16 +8,16 @@ public class Customer {
     private String lastName;
     private String task;
 
-    public Customer() { }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-    public void enter() {
-        System.out.println("Enter name");
-        Scanner in = new Scanner(System.in);
-        firstName = in.nextLine();
-        System.out.println("Enter last name");
-        lastName = in.nextLine();
-        System.out.println("Enter task");
-        task = in.nextLine();
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setTask(String task) {
+        this.task = task;
     }
 
     public String getFirstName() {
@@ -32,7 +32,21 @@ public class Customer {
         return task;
     }
 
-    public void writeToFile() {
+    public void enter() {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter name");
+        firstName = in.nextLine();
+        setFirstName(firstName);
+
+        System.out.println("Enter last name");
+        lastName = in.nextLine();
+        setLastName(lastName);
+
+        System.out.println("Enter task");
+        task = in.nextLine();
+        setTask(task);
+
         try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("test.txt", true))) {
             bufferedWriter.write(String.format("%1s, %10s, %10s", firstName, lastName, task));
             bufferedWriter.newLine();
@@ -40,4 +54,8 @@ public class Customer {
             e.printStackTrace();
         }
     }
+
+//    public void writeToFile() {
+//
+//    }
 }

@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class Manager {
     private String firstNameM;
     private String lastNameM;
+    private Customer customer;
+    private Designer designer;
+    private TeamDesigners teamDesigners;
 
     public Manager() { }
 
@@ -15,7 +18,6 @@ public class Manager {
         firstNameM = in.nextLine();
         System.out.println("Enter last name");
         lastNameM = in.nextLine();
-        //rewriteFile(customer, designer, teamDesigners);
     }
 
     public String getFirstNameM() {

@@ -6,3 +6,16 @@ Qwert,      Qwert,       qasd
 null,       null,       null      Azaza      Azaza UAH 343.35 tiooxwwbli
 Q,          Q,          Q
 null,       null,       null          A          A UAH 936.02 cyjmueuila
+A,          A,          A
+null,       null,       null          F          F  UAH 94.41 crgumqkaqk
+Y,          Y,          Y
+null,       null,       null          W          W UAH 887.98 kxpsbnzrwm
+W,          W,          W
+null,       null,       null          S          S UAH 481.25 eccashckkp
+S,          S,          S
+S,          S,          S          F          F UAH 794.76 efdknwpwkp
+S,          S,          S          X          X UAH 193.07 fjlqejyjri
+D,          D,          D
+D,          D,          D          N          N UAH 502.17 xvpygfkaob
+L,          L,          L
+null,       null,       null          C          C UAH 869.69 kuzothoktn

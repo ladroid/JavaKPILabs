@@ -28,8 +28,7 @@ public class Controller {
         switch (MenuEnum.valueOf(choice.trim())) {
             case Customer:
                 customer.enter();
-                customer.writeToFile();
-                break;
+                start();
             case Manager:
                 manager.enterM();
                 manager.rewriteFile(customer, designer, teamDesigners);
