@@ -8,7 +8,9 @@ public class Customer {
     private String lastName;
     private String task;
 
-    public Customer() {
+    public Customer() { }
+
+    public void enter() {
         System.out.println("Enter name");
         Scanner in = new Scanner(System.in);
         firstName = in.nextLine();

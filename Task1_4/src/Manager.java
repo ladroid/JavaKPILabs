@@ -7,12 +7,15 @@ public class Manager {
     private String firstNameM;
     private String lastNameM;
 
-    public Manager() {
+    public Manager() { }
+
+    public void enterM() {
         System.out.println("Enter name");
         Scanner in = new Scanner(System.in);
         firstNameM = in.nextLine();
         System.out.println("Enter last name");
         lastNameM = in.nextLine();
+        //rewriteFile(customer, designer, teamDesigners);
     }
 
     public String getFirstNameM() {

@@ -5,12 +5,14 @@ public class Task1_4 {
         TeamDesigners teamDesigners = new TeamDesigners();
 
         Customer customer = new Customer();
-        customer.writeToFile();
+        //customer.writeToFile();
 
         Manager manager = new Manager();
-        manager.rewriteFile(customer, designer, teamDesigners);
+        //manager.rewriteFile(customer, designer, teamDesigners);
 
         View view = new View();
-        view.readAll();
+        //view.readAll();
+        Controller controller = new Controller(customer, manager, view, designer, teamDesigners);
+        controller.start();
     }
 }
