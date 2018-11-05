@@ -33,8 +33,6 @@ public class Controller {
                 System.out.println("Enter range from to");
                 int a = input.nextInt();
                 int b = input.nextInt();
-//                String a = in.nextLine();
-//                String b = in.nextLine();
                 pv.readInRange(pm, a, b);
                 break;
             default:

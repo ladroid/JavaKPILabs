@@ -20,13 +20,17 @@ public class PatientView {
         }
     }
 
-    public void readInRange(PatientModel pm, Integer a, Integer b) {
-        System.out.println("OLA " + pm.getMedicalCard());
+    public void readInRange(PatientModel pm, Integer low, Integer high) {
+        String[] splitdata;
+        String sixcol; Integer num=0;
         try {
             String str;
             BufferedReader bufferedReader = new BufferedReader(new FileReader("test.txt"));
-            for(int i = a; i < b; i++) {
-                while ((str = bufferedReader.readLine()) != null) {
+            while ((str = bufferedReader.readLine()) != null) {
+                splitdata = str.split("[,\t]");
+                sixcol = splitdata[0];
+                Integer aa = num.valueOf(sixcol);
+                if(aa > low && aa < high) {
                     System.out.println(str);
                 }
             }
@@ -45,21 +49,5 @@ public class PatientView {
                 System.out.println(line);
             }
         }
-    }
-}
-
-
-class Range
-{
-    private int low;
-    private int high;
-
-    public Range(int low, int high){
-        this.low = low;
-        this.high = high;
-    }
-
-    public boolean contains(int number){
-        return (number >= low && number <= high);
     }
 }
