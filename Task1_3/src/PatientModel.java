@@ -13,25 +13,13 @@ public class PatientModel {
     private Integer numberPhone;
     private Integer medicalCard;
     private String diagnose;
-    private InputPatient inputPatient;
 
     public PatientModel() { }
 
-    public PatientModel(Integer Id, String firstName, String lastName, String patronymic, String Address, Integer numberPhone, Integer medicalCard, String diagnose) {
-        this.Id = Id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.patronymic = patronymic;
-        this.Address = Address;
-        this.numberPhone = numberPhone;
-        this.medicalCard = medicalCard;
-        this.diagnose = diagnose;
-    }
-
     public void enter() {
-        inputPatient = new InputPatient();
-        inputPatient.Input();
+        InputPatient inputPatient = new InputPatient();
 
+        System.out.println(inputPatient.getFirstName() + " " + inputPatient.getLastName());
         Id = inputPatient.getId();
         firstName = inputPatient.getFirstName();
         lastName = inputPatient.getLastName();
@@ -41,43 +29,7 @@ public class PatientModel {
         medicalCard = inputPatient.getMedicalCard();
         diagnose = inputPatient.getDiagnose();
 
-        writeToFile();
-    }
-
-    public void setMedicalCard(Integer medicalCard) {
-        this.medicalCard = medicalCard;
-    }
-
-    public Integer getId() {
-        return Id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public String getPatronymic() {
-        return patronymic;
-    }
-
-    public String getAddress() {
-        return Address;
-    }
-
-    public Integer getNumberPhone() {
-        return numberPhone;
-    }
-
-    public Integer getMedicalCard() {
-        return medicalCard;
-    }
-
-    public String getDiagnose() {
-        return diagnose;
+        //writeToFile();
     }
 
     private void writeToFile() {
