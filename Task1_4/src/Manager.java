@@ -1,11 +1,9 @@
-import sun.security.krb5.internal.crypto.Des;
-
 import java.io.*;
 import java.util.Scanner;
 
-public class Manager {
-    private String firstNameM;
-    private String lastNameM;
+public class Manager extends People {
+    private String firstName;
+    private String lastName;
     private Customer customer;
     private Designer designer;
     private TeamDesigners teamDesigners;
@@ -15,23 +13,25 @@ public class Manager {
     public void enterM() {
         System.out.println("Enter name");
         Scanner in = new Scanner(System.in);
-        firstNameM = in.nextLine();
+        firstName = in.nextLine();
         System.out.println("Enter last name");
-        lastNameM = in.nextLine();
+        lastName = in.nextLine();
     }
 
-    public String getFirstNameM() {
-        return firstNameM;
+    @Override
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getLastNameM() {
-        return lastNameM;
+    @Override
+    public String getLastName() {
+        return lastName;
     }
 
     public void rewriteFile(Customer customer, Designer designer, TeamDesigners name) {
         try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("test.txt", true))) {
             bufferedWriter.write(String.format("%1s, %10s, %10s %10s %10s %10s %10s", customer.getFirstName(), customer.getLastName(),
-                    customer.getTask(), firstNameM, lastNameM, designer.amount(), name.randomName()));
+                    customer.getTask(), firstName, lastName, designer.amount(), name.randomName()));
             bufferedWriter.newLine();
         } catch (IOException e) {
             e.printStackTrace();

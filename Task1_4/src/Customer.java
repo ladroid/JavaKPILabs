@@ -3,15 +3,17 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Customer {
+public class Customer extends People {
     private String firstName;
     private String lastName;
     private String task;
 
+    @Override
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
+    @Override
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
@@ -20,10 +22,12 @@ public class Customer {
         this.task = task;
     }
 
+    @Override
     public String getFirstName() {
         return firstName;
     }
 
+    @Override
     public String getLastName() {
         return lastName;
     }
@@ -54,8 +58,4 @@ public class Customer {
             e.printStackTrace();
         }
     }
-
-//    public void writeToFile() {
-//
-//    }
 }

@@ -19,3 +19,9 @@ D,          D,          D
 D,          D,          D          N          N UAH 502.17 xvpygfkaob
 L,          L,          L
 null,       null,       null          C          C UAH 869.69 kuzothoktn
+XX,         XX,         XX
+XX,         XX,         XX         VV         VV  UAH 52.91 vcxypwtmub
+XX,         XX,         XX         VV         VV UAH 497.59 hxcrapwlmi
+SS,         SS,         SS
+SS,         SS,         SS         TT         TT UAH 571.36 nmcgtvhpgt
+SS,         SS,         SS         TT         TT UAH 160.16 kzovwbnsis

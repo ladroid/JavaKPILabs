@@ -6,13 +6,15 @@ public class Controller {
     private View view;
     private Designer designer;
     private TeamDesigners teamDesigners;
+    private ReadInfo readInfo;
 
-    public Controller(Customer customer, Manager manager, View view, Designer designer, TeamDesigners teamDesigners) {
+    public Controller(Customer customer, Manager manager, View view, Designer designer, TeamDesigners teamDesigners, ReadInfo readInfo) {
         this.customer = customer;
         this.manager = manager;
         this.view = view;
         this.designer = designer;
         this.teamDesigners = teamDesigners;
+        this.readInfo = readInfo;
     }
 
     public void start() {
@@ -34,7 +36,7 @@ public class Controller {
                 manager.rewriteFile(customer, designer, teamDesigners);
                 break;
             case View:
-                view.readAll();
+                view.read(readInfo);
                 break;
             default:
                 System.out.println("Error!!!");
