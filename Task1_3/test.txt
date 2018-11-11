@@ -3,3 +3,4 @@
 3,  Jhonathan,      Smith,        Tod,  Karls Str,     903456,          3,        Flu
 4,     Alexia,      Anitt,       Jhon,  Aster Str,     459080,          4,      Teeth
 5,    Michael,       Kors,      Asher,   Broadway,     234567,          5, Chickenpox
+6,       Jhon,    Neimann,     Albert,  Karls Str,     908675,          6,        Flu

@@ -22,7 +22,7 @@ public class Controller {
 
         switch (MenuEnum.valueOf(choice.trim())) {
             case ENTER_INFO:
-                pv.enterInfo(inputPatient, pm);
+                pv.enterInfo(inputPatient);
                 break;
             case READ_INFO:
                 pv.read(readInfoChoice);

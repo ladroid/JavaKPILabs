@@ -1,3 +1,6 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class InputPatient {
@@ -37,6 +40,8 @@ public class InputPatient {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter diagnose");
         diagnose = sc.nextLine();
+
+        writeToFile();
     }
 
     public Integer getId() {
@@ -69,5 +74,15 @@ public class InputPatient {
 
     public String getDiagnose() {
         return diagnose;
+    }
+
+    private void writeToFile() {
+        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("test.txt", true))) {
+            bufferedWriter.write(String.format("%1d, %10s, %10s, %10s, %10s, %10d, %10d, %10s", Id, firstName,
+                    lastName, patronymic, Address, numberPhone, medicalCard, diagnose));
+            bufferedWriter.newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -8,9 +8,9 @@ public class PatientView {
         this.readInformation = readInformation;
     }
 
-    public void enterInfo(InputPatient ipat, PatientModel pm) {
+    public void enterInfo(InputPatient ipat) {
         ipat.Input();
-        pm.enter();
+        //pm.enter();
     }
 
     public void read(ReadInfoChoice readInfoChoice) throws FileNotFoundException {
