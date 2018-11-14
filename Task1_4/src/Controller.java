@@ -29,10 +29,11 @@ public class Controller {
 
         switch (MenuEnum.valueOf(choice.trim())) {
             case Customer:
-                customer.enter();
+                view.showInput();
                 start();
+                break;
             case Manager:
-                manager.enterM();
+                //manager.enterM();
                 manager.rewriteFile(customer, designer, teamDesigners);
                 break;
             case View:

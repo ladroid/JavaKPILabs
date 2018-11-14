@@ -25,3 +25,5 @@ XX,         XX,         XX         VV         VV UAH 497.59 hxcrapwlmi
 SS,         SS,         SS
 SS,         SS,         SS         TT         TT UAH 571.36 nmcgtvhpgt
 SS,         SS,         SS         TT         TT UAH 160.16 kzovwbnsis
+MM,         MM,         LL
+MM,         MM,         LL         PP         PP UAH 748.96 xdwoemgfst
