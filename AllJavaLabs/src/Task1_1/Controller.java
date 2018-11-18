@@ -31,8 +31,6 @@ public class Controller {
     public void run() {
         view.showArray(model.getM());
         view.show(model.a());
-//        for (double[]a : model.getM()) {
-//            view.show(model.negSum(a));
-//        }
+        view.readResult(model);
     }
 }

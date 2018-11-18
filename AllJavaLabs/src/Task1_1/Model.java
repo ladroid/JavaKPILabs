@@ -1,5 +1,10 @@
 package Task1_1;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  * Class model of array
  */
@@ -52,16 +57,18 @@ public class Model {
             }
         }
 
-//        for(int i=0; i<m[row].length; i++)
-//        {
-//            if(m[row][i] < 0)
-//            {
-//                for(i=row+1; i < m.length && m[i][row]>=0; row++) {
-//                    sum += m[i][row];
-//                }
-//                break;
-//            }
-//        }
         return sum;
+    }
+
+    public void writeToFile() {
+        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("task11.txt", true))) {
+            for(int i = 0; i < a().length; i++) {
+                bufferedWriter.write(String.valueOf(a()[i]));
+                bufferedWriter.newLine();
+
+            }
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
 }
