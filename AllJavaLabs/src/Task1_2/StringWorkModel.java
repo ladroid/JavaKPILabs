@@ -1,5 +1,8 @@
 package Task1_2;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class StringWorkModel {
@@ -36,5 +39,15 @@ public class StringWorkModel {
     public String gettingStr() {
         String str = removeChar();
         return str;
+    }
+
+    public void writeToFile() {
+        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("task12.txt", true))) {
+            bufferedWriter.write(gettingStrBefore());
+            bufferedWriter.newLine();
+            bufferedWriter.write(gettingStr());
+        } catch(IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
 }

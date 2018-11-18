@@ -12,4 +12,8 @@ public class StringWorkController {
     public void run() {
         stringWorkView.view(stringWorkModel);
     }
+
+    public void start() {
+        stringWorkView.viewFromFile(stringWorkModel);
+    }
 }

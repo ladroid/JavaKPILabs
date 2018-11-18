@@ -1,7 +1,6 @@
 package Task1_1;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
