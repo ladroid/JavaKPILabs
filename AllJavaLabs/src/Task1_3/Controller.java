@@ -14,20 +14,24 @@ public class Controller {
         this.inputPatient = inputPatient;
     }
 
-    public void menu() throws FileNotFoundException, IllegalArgument {
+    public void menu() throws FileNotFoundException {
         System.out.println("Choose one of menu");
         System.out.println("1)ENTER_INFO\n2)READ_INFO");
         Scanner in = new Scanner(System.in);
         String choice = in.nextLine();
 
-        switch (MenuEnum.valueOf(choice.trim())) {
-            case ENTER_INFO:
-                pv.enterInfo(inputPatient);
-                break;
-            case READ_INFO:
-                pv.read(readInfoChoice);
-            default:
-                throw new IllegalArgument("Error", 1);
+        try {
+            switch (MenuEnum.valueOf(choice.trim())) {
+                case ENTER_INFO:
+                    pv.enterInfo(inputPatient);
+                    break;
+                case READ_INFO:
+                    pv.read(readInfoChoice);
+                default:
+                    throw new IllegalArgument("Error", 1);
+            }
+        } catch(IllegalArgumentException iae) {
+            throw new IllegalArgument("Error", 1);
         }
     }
 }

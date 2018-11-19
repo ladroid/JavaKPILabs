@@ -10,10 +10,7 @@ public class Task1_3 {
         ReadInfoChoice readInfoChoice = new ReadInfoChoice();
 
         Controller c = new Controller(pv, readInfoChoice, inputPatient);
-        try {
-            c.menu();
-        } catch (IllegalArgument illegalArgument) {
-            illegalArgument.toString();
-        }
+
+        c.menu();
     }
 }

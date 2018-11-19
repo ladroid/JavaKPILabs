@@ -1,5 +1,6 @@
 package Task1_1;
 
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -29,9 +30,8 @@ public class Task1_1 {
                     a[i][j] = random.nextInt(30 + 1 + 10) - 10;
                 }
             }
+        } catch (InputMismatchException ime) {
             throw new MyException("Error");
-        } catch (MyException me) {
-            me.toString();
         }
         return a;
     }

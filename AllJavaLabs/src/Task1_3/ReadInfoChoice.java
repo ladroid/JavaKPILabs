@@ -11,21 +11,27 @@ public class ReadInfoChoice {
         String choiceRead = in.nextLine();
 
         Scanner input = new Scanner(System.in);
-        switch (ReadMenuEnum.valueOf(choiceRead.trim())) {
-            case ReadFromFile:
-                readInformation.readFromFile();
-                break;
-            case ReadInRange:
-                System.out.println("Enter range from to");
-                int a = input.nextInt();
-                int b = input.nextInt();
-                readInformation.readInRange(a, b);
-                break;
-            case ReadDiagnose:
-                System.out.println("Enter diagnose");
-                String diagnose = input.nextLine();
-                readInformation.ParseFile("test.txt", diagnose);
-                break;
+        try {
+            switch (ReadMenuEnum.valueOf(choiceRead.trim())) {
+                case ReadFromFile:
+                    readInformation.readFromFile();
+                    break;
+                case ReadInRange:
+                    System.out.println("Enter range from to");
+                    int a = input.nextInt();
+                    int b = input.nextInt();
+                    readInformation.readInRange(a, b);
+                    break;
+                case ReadDiagnose:
+                    System.out.println("Enter diagnose");
+                    String diagnose = input.nextLine();
+                    readInformation.ParseFile("test.txt", diagnose);
+                    break;
+                default:
+                    throw new IllegalArgument("Error", 1);
+            }
+        } catch(IllegalArgumentException iae) {
+            throw new IllegalArgument("Error", 1);
         }
     }
 }

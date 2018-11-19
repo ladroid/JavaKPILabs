@@ -6,10 +6,6 @@ public class Task1_2 {
         StringWorkView stringWorkView = new StringWorkView();
         StringWorkController stringWorkController = new StringWorkController(stringWorkModel, stringWorkView);
 
-        try {
-            stringWorkController.start1();
-        } catch (MyException me) {
-            me.toString();
-        }
+        stringWorkController.start1();
     }
 }
