@@ -8,11 +8,13 @@ public class StringWorkController {
     private StringWorkModel stringWorkModel;
     private StringWorkView stringWorkView;
     private WriteSerializableClass writeSerializableClass;
+    private ReadFile readFile;
 
-    public StringWorkController(StringWorkModel stringWorkModel, StringWorkView stringWorkView, WriteSerializableClass writeSerializableClass) {
+    public StringWorkController(StringWorkModel stringWorkModel, StringWorkView stringWorkView, WriteSerializableClass writeSerializableClass, ReadFile readFile) {
         this.stringWorkModel = stringWorkModel;
         this.stringWorkView = stringWorkView;
         this.writeSerializableClass = writeSerializableClass;
+        this.readFile = readFile;
     }
 
     public void run() {
@@ -20,7 +22,7 @@ public class StringWorkController {
     }
 
     public void start() {
-        stringWorkView.viewFromFile(stringWorkModel);
+        stringWorkView.read(readFile, stringWorkModel);
     }
 
     public void start1() throws FileNotFoundException, IOException {
@@ -39,7 +41,7 @@ public class StringWorkController {
                     stringWorkView.view(stringWorkModel);
                     break;
                 case FILE:
-                    stringWorkView.viewFromFile(stringWorkModel);
+                    stringWorkView.read(readFile, stringWorkModel);
                     break;
                 case SERIALIZABLEW:
                     writeSerializableClass.writeToFileObject();

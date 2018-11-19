@@ -16,16 +16,19 @@ public class Controller {
 
     private WriteSerializableClass writeSerializableClass;
 
+    private ReadFile readFile;
+
     /**
      * constructor takes values of model and view
      * @param model
      * @param view
      */
 
-    public Controller(Model model, View view, WriteSerializableClass writeSerializableClass) {
+    public Controller(Model model, View view, WriteSerializableClass writeSerializableClass, ReadFile readFile) {
         this.model = model;
         this.view = view;
         this.writeSerializableClass = writeSerializableClass;
+        this.readFile = readFile;
     }
 
     /**
@@ -34,7 +37,7 @@ public class Controller {
     public void run() {
         view.showArray(model.getM());
         view.show(model.a());
-        view.readResult(model);
+        view.read(readFile, model);
         writeSerializableClass.writeToFileObject();
     }
 }

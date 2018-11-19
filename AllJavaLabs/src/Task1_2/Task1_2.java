@@ -7,7 +7,8 @@ public class Task1_2 {
         StringWorkModel stringWorkModel = new StringWorkModel();
         StringWorkView stringWorkView = new StringWorkView();
         WriteSerializableClass writeSerializableClass = new WriteSerializableClass();
-        StringWorkController stringWorkController = new StringWorkController(stringWorkModel, stringWorkView, writeSerializableClass);
+        ReadFile readFile = new ReadFile();
+        StringWorkController stringWorkController = new StringWorkController(stringWorkModel, stringWorkView, writeSerializableClass, readFile);
 
         try {
             stringWorkController.start1();

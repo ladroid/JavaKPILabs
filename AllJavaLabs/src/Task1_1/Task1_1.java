@@ -41,7 +41,8 @@ public class Task1_1 {
         Model model = new Model(task11.makeArray());
         View view = new View(model);
         WriteSerializableClass writeSerializableClass = new WriteSerializableClass();
-        Controller controller = new Controller(model, view, writeSerializableClass);
+        ReadFile readFile = new ReadFile();
+        Controller controller = new Controller(model, view, writeSerializableClass, readFile);
         controller.run();
     }
 }
