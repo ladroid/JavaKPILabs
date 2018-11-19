@@ -7,6 +7,8 @@ import java.awt.Point;
 
 public class Task2_3 {
     public static void main(String[] args) {
+//        Points p = new Points();
+//        p.setPoints();
         Set<Point3D> points = new HashSet<>();
         points.add(new Point3D(9, 0, 0));
         points.add(new Point3D(1, 1, 1));

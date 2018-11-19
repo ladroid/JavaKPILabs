@@ -1,6 +1,6 @@
 package Task1_2;
 
-public class MyException extends Exception {
+public class MyException extends IllegalArgumentException {
     public MyException(String msg, int code) {
         super(msg + " : " + code);
     }
