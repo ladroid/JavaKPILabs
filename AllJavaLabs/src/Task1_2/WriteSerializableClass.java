@@ -6,11 +6,11 @@ public class WriteSerializableClass {
     public void writeToFileObject() {
         StringWorkModel stringWorkModel = new StringWorkModel("Hello,.", ",");
         try {
-            FileOutputStream fout = new FileOutputStream(new File("task11_1.ser"));
+            FileOutputStream fout = new FileOutputStream(new File("task12_2.ser"));
             ObjectOutputStream oos = new ObjectOutputStream(fout);
             oos.writeObject(stringWorkModel);
 
-            FileInputStream fi = new FileInputStream(new File("task11_1.ser"));
+            FileInputStream fi = new FileInputStream(new File("task12_2.ser"));
             ObjectInputStream oi = new ObjectInputStream(fi);
 
             // Read objects

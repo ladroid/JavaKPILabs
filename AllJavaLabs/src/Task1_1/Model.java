@@ -3,11 +3,13 @@ package Task1_1;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Serializable;
+import java.util.Arrays;
 
 /**
  * Class model of array
  */
-public class Model {
+public class Model implements Serializable {
 
     /**
      * array
@@ -69,5 +71,10 @@ public class Model {
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
+    }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(a());
     }
 }

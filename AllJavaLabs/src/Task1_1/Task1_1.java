@@ -40,7 +40,8 @@ public class Task1_1 {
         Task1_1 task11 = new Task1_1();
         Model model = new Model(task11.makeArray());
         View view = new View(model);
-        Controller controller = new Controller(model, view);
+        WriteSerializableClass writeSerializableClass = new WriteSerializableClass();
+        Controller controller = new Controller(model, view, writeSerializableClass);
         controller.run();
     }
 }
