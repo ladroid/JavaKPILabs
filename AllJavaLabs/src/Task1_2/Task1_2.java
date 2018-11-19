@@ -1,11 +1,18 @@
 package Task1_2;
 
+import java.io.IOException;
+
 public class Task1_2 {
     public static void main(String[] args) {
         StringWorkModel stringWorkModel = new StringWorkModel();
         StringWorkView stringWorkView = new StringWorkView();
-        StringWorkController stringWorkController = new StringWorkController(stringWorkModel, stringWorkView);
+        WriteSerializableClass writeSerializableClass = new WriteSerializableClass();
+        StringWorkController stringWorkController = new StringWorkController(stringWorkModel, stringWorkView, writeSerializableClass);
 
-        stringWorkController.start1();
+        try {
+            stringWorkController.start1();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

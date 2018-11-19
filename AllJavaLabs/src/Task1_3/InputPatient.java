@@ -3,9 +3,10 @@ package Task1_3;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class InputPatient {
+public class InputPatient implements Serializable {
     private Integer Id;
     private String firstName;
     private String lastName;
@@ -86,5 +87,11 @@ public class InputPatient {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public String toString() {
+        return Id + " " + firstName + " " + lastName + " " + patronymic + " " +Address + " " +
+                numberPhone + " " + medicalCard + " " + diagnose;
     }
 }

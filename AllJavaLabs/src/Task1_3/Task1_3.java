@@ -8,8 +8,9 @@ public class Task1_3 {
         ReadInformation readInformation = new ReadInformation();
         PatientView pv = new PatientView(readInformation);
         ReadInfoChoice readInfoChoice = new ReadInfoChoice();
+        WriteSerializableClass writeSerializableClass = new WriteSerializableClass();
 
-        Controller c = new Controller(pv, readInfoChoice, inputPatient);
+        Controller c = new Controller(pv, readInfoChoice, inputPatient, writeSerializableClass);
 
         c.menu();
     }

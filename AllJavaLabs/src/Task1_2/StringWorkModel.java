@@ -3,9 +3,10 @@ package Task1_2;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class StringWorkModel {
+public class StringWorkModel implements Serializable {
     private String str;
     private String toRemove;
 
@@ -49,5 +50,9 @@ public class StringWorkModel {
         } catch(IOException ioe) {
             ioe.printStackTrace();
         }
+    }
+    @Override
+    public String toString() {
+        return gettingStr();
     }
 }

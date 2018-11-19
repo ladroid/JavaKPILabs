@@ -7,16 +7,18 @@ public class Controller {
     private PatientView pv;
     private ReadInfoChoice readInfoChoice;
     private InputPatient inputPatient;
+    private WriteSerializableClass writeSerializableClass;
 
-    public Controller(PatientView pv, ReadInfoChoice readInfoChoice, InputPatient inputPatient) {
+    public Controller(PatientView pv, ReadInfoChoice readInfoChoice, InputPatient inputPatient, WriteSerializableClass writeSerializableClass) {
         this.pv = pv;
         this.readInfoChoice = readInfoChoice;
         this.inputPatient = inputPatient;
+        this.writeSerializableClass = writeSerializableClass;
     }
 
     public void menu() throws FileNotFoundException {
         System.out.println("Choose one of menu");
-        System.out.println("1)ENTER_INFO\n2)READ_INFO");
+        System.out.println("1)ENTER_INFO\n2)READ_INFO\n3)SERIALIZABLEW");
         Scanner in = new Scanner(System.in);
         String choice = in.nextLine();
 
@@ -27,6 +29,8 @@ public class Controller {
                     break;
                 case READ_INFO:
                     pv.read(readInfoChoice);
+                case SERIALIZABLEW:
+                    writeSerializableClass.writeToFileObject();
                 default:
                     throw new IllegalArgument("Error", 1);
             }
