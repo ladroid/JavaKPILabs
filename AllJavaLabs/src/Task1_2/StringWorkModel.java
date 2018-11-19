@@ -10,17 +10,19 @@ public class StringWorkModel implements Serializable {
     private String str;
     private String toRemove;
 
-    public StringWorkModel() {
+    public StringWorkModel() { }
+
+    public StringWorkModel(String str, String toRemove) {
+        this.str = str;
+        this.toRemove = toRemove;
+    }
+
+    public void input() {
         System.out.println("Enter stroke: ");
         Scanner in = new Scanner(System.in);
         str = in.nextLine();
         System.out.println("Enter sign which to remove: ");
         toRemove = in.nextLine();
-    }
-
-    public StringWorkModel(String str, String toRemove) {
-        this.str = str;
-        this.toRemove = toRemove;
     }
 
     private String removeChar() {
