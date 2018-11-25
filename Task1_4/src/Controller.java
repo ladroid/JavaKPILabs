@@ -22,22 +22,19 @@ public class Controller {
         System.out.println("=Building department=");
         System.out.println("=====================");
         System.out.println("Choose a choice");
-        System.out.println("1)Customer\n2)Manager\n3)View");
+        System.out.println("1)Enter\n2)Read");
+
+        //view.inputData();
 
         Scanner in = new Scanner(System.in);
         String choice = in.nextLine();
 
         switch (MenuEnum.valueOf(choice.trim())) {
-            case Customer:
-                view.showInput();
-                start();
+            case Enter:
+                view.inputData();
                 break;
-            case Manager:
-                //manager.enterM();
-                manager.rewriteFile(customer, designer, teamDesigners);
-                break;
-            case View:
-                view.read(readInfo);
+            case Read:
+                view.readS(readInfo);
                 break;
             default:
                 System.out.println("Error!!!");

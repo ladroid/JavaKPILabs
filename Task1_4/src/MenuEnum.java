@@ -1,5 +1,4 @@
 public enum MenuEnum {
-    Customer,
-    Manager,
-    View
+    Enter,
+    Read
 }

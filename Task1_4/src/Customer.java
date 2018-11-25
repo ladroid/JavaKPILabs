@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Customer extends People {
     private String firstName;
     private String lastName;
-    private String task;
 
     @Override
     public void setFirstName(String firstName) {
@@ -16,10 +15,6 @@ public class Customer extends People {
     @Override
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    public void setTask(String task) {
-        this.task = task;
     }
 
     @Override
@@ -32,30 +27,22 @@ public class Customer extends People {
         return lastName;
     }
 
-    public String getTask() {
-        return task;
-    }
-
-    public void enter() {
-        Scanner in = new Scanner(System.in);
-
-        System.out.println("Enter name");
-        firstName = in.nextLine();
-        setFirstName(firstName);
-
-        System.out.println("Enter last name");
-        lastName = in.nextLine();
-        setLastName(lastName);
-
-        System.out.println("Enter task");
-        task = in.nextLine();
-        setTask(task);
-
-        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("test.txt", true))) {
-            bufferedWriter.write(String.format("%1s, %10s, %10s", firstName, lastName, task));
-            bufferedWriter.newLine();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+//    public void enter() {
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.println("Enter name");
+//        firstName = in.nextLine();
+//        setFirstName(firstName);
+//
+//        System.out.println("Enter last name");
+//        lastName = in.nextLine();
+//        setLastName(lastName);
+//
+//        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("test.txt", true))) {
+//            bufferedWriter.write(String.format("%1s, %10s", firstName, lastName));
+//            bufferedWriter.newLine();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
 }

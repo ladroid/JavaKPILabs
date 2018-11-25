@@ -10,12 +10,22 @@ public class Manager extends People {
 
     public Manager() { }
 
-    public void enterM() {
-        System.out.println("Enter name");
-        Scanner in = new Scanner(System.in);
-        firstName = in.nextLine();
-        System.out.println("Enter last name");
-        lastName = in.nextLine();
+//    public void enterM() {
+//        System.out.println("Enter name");
+//        Scanner in = new Scanner(System.in);
+//        firstName = in.nextLine();
+//        System.out.println("Enter last name");
+//        lastName = in.nextLine();
+//    }
+
+    @Override
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    @Override
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     @Override
@@ -28,13 +38,13 @@ public class Manager extends People {
         return lastName;
     }
 
-    public void rewriteFile(Customer customer, Designer designer, TeamDesigners name) {
-        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("test.txt", true))) {
-            bufferedWriter.write(String.format("%1s, %10s, %10s %10s %10s %10s %10s", customer.getFirstName(), customer.getLastName(),
-                    customer.getTask(), firstName, lastName, designer.amount(), name.randomName()));
-            bufferedWriter.newLine();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+//    public void rewriteFile(Customer customer, Designer designer, TeamDesigners name) {
+//        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("test.txt", true))) {
+//            bufferedWriter.write(String.format("%1s, %10s, %10s %10s %10s %10s %10s", customer.getFirstName(), customer.getLastName(),
+//                    firstName, lastName, designer.amount(), name.randomName()));
+//            bufferedWriter.newLine();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
 }
