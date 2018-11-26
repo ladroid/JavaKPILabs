@@ -34,3 +34,4 @@ Jhonny,      Aizek        234        234,        all,         23,       wood,   
 Jhonny,      Aizek        234        234,        all,         23,       wood,        red,      Steve,      Karls
 Jhonny,      Aizek        234        234,        all,         23,       wood,        red,      Steve,      Karls,     Bredly,    Jhonson, UAH 187.23, pyqigkxqwz
 ASASA,      ASASA        123        234,        all,         23,       wood,        red,       AZAZ,       ZXZX,       SDSD,       DFDF, UAH 960.52, tzbablkqqi
+XCXCX,       XXXX          4        234,         34,         23,       wood,     silver,       DDDD,       FFFF,       JJJJ,       LLLL, UAH 801.96, jrrclixcyz
