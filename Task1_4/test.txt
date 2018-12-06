@@ -1,0 +1,37 @@
+Jimmy,     Gordon, paint walls
+Jimmy,     Gordon, paint walls       Alex   Zelinsky UAH 639.86 tvwovbymaw
+Steven,       Blum, build home
+null,       null,       null       Jhon       Bush UAH 585.58 zfadxlwwfm
+Qwert,      Qwert,       qasd
+null,       null,       null      Azaza      Azaza UAH 343.35 tiooxwwbli
+Q,          Q,          Q
+null,       null,       null          A          A UAH 936.02 cyjmueuila
+A,          A,          A
+null,       null,       null          F          F  UAH 94.41 crgumqkaqk
+Y,          Y,          Y
+null,       null,       null          W          W UAH 887.98 kxpsbnzrwm
+W,          W,          W
+null,       null,       null          S          S UAH 481.25 eccashckkp
+S,          S,          S
+S,          S,          S          F          F UAH 794.76 efdknwpwkp
+S,          S,          S          X          X UAH 193.07 fjlqejyjri
+D,          D,          D
+D,          D,          D          N          N UAH 502.17 xvpygfkaob
+L,          L,          L
+null,       null,       null          C          C UAH 869.69 kuzothoktn
+XX,         XX,         XX
+XX,         XX,         XX         VV         VV  UAH 52.91 vcxypwtmub
+XX,         XX,         XX         VV         VV UAH 497.59 hxcrapwlmi
+SS,         SS,         SS
+SS,         SS,         SS         TT         TT UAH 571.36 nmcgtvhpgt
+SS,         SS,         SS         TT         TT UAH 160.16 kzovwbnsis
+MM,         MM,         MM
+MM,         MM,         MM         LL         LL UAH 786.38 ekwitjlfzn
+MAMA,       MAMA          4        234,           ,         30,           ,        red
+ALALA,      ALALA          4        234,           ,         34,           ,        red
+ALALA,      ALALA          4        234,           ,         34,           ,        red,       QWER,       QWER
+Jhonny,      Aizek        234        234,        all,         23,       wood,        red
+Jhonny,      Aizek        234        234,        all,         23,       wood,        red,      Steve,      Karls
+Jhonny,      Aizek        234        234,        all,         23,       wood,        red,      Steve,      Karls,     Bredly,    Jhonson, UAH 187.23, pyqigkxqwz
+ASASA,      ASASA        123        234,        all,         23,       wood,        red,       AZAZ,       ZXZX,       SDSD,       DFDF, UAH 960.52, tzbablkqqi
+XCXCX,       XXXX          4        234,         34,         23,       wood,     silver,       DDDD,       FFFF,       JJJJ,       LLLL, UAH 801.96, jrrclixcyz
