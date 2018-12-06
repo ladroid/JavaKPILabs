@@ -1,0 +1,112 @@
+2018-12-05 12:50:31,857 DEBUG [main] - Task1_3.controller.Controller.menu 38 - Start controller
+2018-12-05 12:50:37,677 ERROR [main] - Task1_3.controller.Controller.menu 60 - Incorreect choice. Please try again
+2018-12-05 12:50:48,684 DEBUG [main] - Task1_3.controller.Controller.menu 38 - Start controller
+2018-12-05 13:01:38,229 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:01:41,795 ERROR [main] - Task1_3.controller.Controller.menu 62 - Incorreect choice. Please try again
+2018-12-05 13:01:52,806 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:02:47,175 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:02:52,663 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 13:02:56,893 DEBUG [main] - Task1_3.model.Model.writeToFile 24 - Start method writeToFile()
+2018-12-05 13:02:56,894  INFO [main] - Task1_3.model.Model.writeToFile 26 - Write datas to file
+2018-12-05 13:03:31,034 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:03:37,571 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 13:03:40,408 DEBUG [main] - Task1_3.model.Model.writeToFile 24 - Start method writeToFile()
+2018-12-05 13:03:40,409  INFO [main] - Task1_3.model.Model.writeToFile 26 - Write datas to file
+2018-12-05 13:04:07,985 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:04:12,429 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 13:04:14,204 DEBUG [main] - Task1_3.model.Model.writeToFile 24 - Start method writeToFile()
+2018-12-05 13:04:14,205  INFO [main] - Task1_3.model.Model.writeToFile 26 - Write datas to file
+2018-12-05 13:04:58,511 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:05:02,599 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 13:05:26,461 DEBUG [main] - Task1_3.model.Model.writeToFile 24 - Start method writeToFile()
+2018-12-05 13:05:26,462  INFO [main] - Task1_3.model.Model.writeToFile 26 - Write datas to file
+2018-12-05 13:44:51,958 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:45:03,944 ERROR [main] - Task1_3.controller.Controller.menu 62 - Incorreect choice. Please try again
+2018-12-05 13:47:38,914 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:47:40,740 ERROR [main] - Task1_3.controller.Controller.menu 62 - Incorreect choice. Please try again
+2018-12-05 13:47:51,745 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:49:52,640 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:49:59,571 DEBUG [main] - Task1_3.model.Model.writeSerializable 37 - Start method writeSerializable()
+2018-12-05 13:49:59,572  INFO [main] - Task1_3.model.Model.writeSerializable 39 - Write object to file
+2018-12-05 13:49:59,573 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 13:52:09,588 DEBUG [main] - Task1_3.controller.Controller.menu 40 - Start controller
+2018-12-05 13:52:14,263 DEBUG [main] - Task1_3.read.ReadInfoChoice.readChoice 22 - Read choice
+2018-12-05 13:52:17,335 ERROR [main] - Task1_3.read.ReadInfoChoice.readChoice 52 - Incorreect choice. Please try again
+2018-12-05 13:52:17,337 DEBUG [main] - Task1_3.model.Model.writeSerializable 37 - Start method writeSerializable()
+2018-12-05 13:52:17,344  INFO [main] - Task1_3.model.Model.writeSerializable 39 - Write object to file
+2018-12-05 13:52:17,344 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:34:35,220 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:34:40,225 DEBUG [main] - Task1_3.read.ReadInfoChoice.readChoice 22 - Read choice
+2018-12-05 20:34:47,341 ERROR [main] - Task1_3.read.ReadInfoChoice.readChoice 52 - Incorreect choice. Please try again
+2018-12-05 20:34:47,341 DEBUG [main] - Task1_3.model.Model.writeSerializable 37 - Start method writeSerializable()
+2018-12-05 20:34:47,342  INFO [main] - Task1_3.model.Model.writeSerializable 39 - Write object to file
+2018-12-05 20:34:47,342 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:35:05,352 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:35:17,619 DEBUG [main] - Task1_3.model.Model.writeSerializable 37 - Start method writeSerializable()
+2018-12-05 20:35:17,619  INFO [main] - Task1_3.model.Model.writeSerializable 39 - Write object to file
+2018-12-05 20:35:17,620 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:35:42,432 ERROR [main] - Task1_3.model.Model.writeSerializable 51 - IOException
+2018-12-05 20:35:42,433 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:35:53,438 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:36:36,927 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:36:41,148 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:36:58,481 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:37:09,490 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:37:47,061 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:37:51,701 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:38:04,717 ERROR [main] - Task1_3.view.PatientView.input 72 - Incorreect input. Please try again
+2018-12-05 20:38:04,762 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:38:17,339 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:38:20,898 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:38:38,298 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:38:49,306 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:40:22,124 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:40:27,375 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:40:42,428 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:40:53,431 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:41:00,745 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:41:05,793 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:41:18,624 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:41:29,634 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:42:12,523 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:42:16,372 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:42:26,532 ERROR [main] - Task1_3.view.PatientView.input 72 - Incorreect input. Please try again
+2018-12-05 20:42:26,576 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:42:37,584 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:42:48,016 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:42:52,163 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:43:04,785 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:43:15,795 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:43:22,401 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:43:25,891 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:43:37,435 ERROR [main] - Task1_3.view.PatientView.input 72 - Incorreect input. Please try again
+2018-12-05 20:43:37,486 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:43:48,489 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:44:40,305 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:44:43,224 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:44:52,526 ERROR [main] - Task1_3.view.PatientView.input 72 - Incorreect input. Please try again
+2018-12-05 20:44:52,573 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:45:00,608 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:45:03,870 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:45:25,646 ERROR [main] - Task1_3.controller.Controller.menu 61 - Incorreect choice. Please try again
+2018-12-05 20:45:36,652 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:45:43,583 DEBUG [main] - Task1_3.read.ReadInfoChoice.readChoice 22 - Read choice
+2018-12-05 20:45:49,879 ERROR [main] - Task1_3.read.ReadInfoChoice.readChoice 52 - Incorreect choice. Please try again
+2018-12-05 20:45:49,884 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:46:07,920 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:46:16,312 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:46:41,918 DEBUG [main] - Task1_3.model.Model.writeToFile 24 - Start method writeToFile()
+2018-12-05 20:46:41,919  INFO [main] - Task1_3.model.Model.writeToFile 26 - Write datas to file
+2018-12-05 20:46:47,162 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:46:51,179 DEBUG [main] - Task1_3.read.ReadInfoChoice.readChoice 22 - Read choice
+2018-12-05 20:46:55,812 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:47:07,624 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:47:11,368 DEBUG [main] - Task1_3.read.ReadInfoChoice.readChoice 22 - Read choice
+2018-12-05 20:47:23,303 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:47:32,210 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:47:36,550 DEBUG [main] - Task1_3.read.ReadInfoChoice.readChoice 22 - Read choice
+2018-12-05 20:47:42,864 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data
+2018-12-05 20:47:53,324 DEBUG [main] - Task1_3.controller.Controller.menu 39 - Start controller
+2018-12-05 20:47:56,402 DEBUG [main] - Task1_3.read.ReadInfoChoice.readChoice 22 - Read choice
+2018-12-05 20:47:59,924 ERROR [main] - Task1_3.read.ReadInfoChoice.readChoice 52 - Incorreect choice. Please try again
+2018-12-05 20:47:59,924 DEBUG [main] - Task1_3.view.PatientView.input 35 - Start input data

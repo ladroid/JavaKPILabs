@@ -1,0 +1,12 @@
+
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‘ãÆú8îÕƒò÷,
+Msquid:S2065"0Remove the "transient" modifier from this field.(©‰´=8ò–±ý÷,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àäë­
+i
+squid:S1285"LEnd this switch case with an unconditional break, return or throw statement.(ˆ·ÌÉ8—®Þîò,
+nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(¶¬·«ÿÿÿÿÿ8¡šäñ÷,
+gsquid:UselessImportCheck"=Remove this unused import 'java.util.InputMismatchException'.(Ý§18Œˆáñ÷,
+isquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(Õ¶£š8¨ðôï÷,
+Ssquid:S2065"0Remove the "transient" modifier from this field.(ß¢“úÿÿÿÿ8™ä¹ý÷,
+b
+squid:S1283"LEnd this switch case with an unconditional break, return or throw statement.(Š›À½

@@ -1,0 +1,9 @@
+
+[squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedWriter'.(¬õº/8İšÇÌö,
+^squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8İšÇÌö,
+hsquid:S00116"RRename this field "Address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ü©
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İÖóªùÿÿÿÿ
+\squid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ê„³Ìö,
+Ssquid:UselessImportCheck",Remove this unused import 'Task1_3.Task1_3'.(Î¨ó¾üÿÿÿÿ
+csquid:S00116"MRename this field "Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×­ÒÒ
+]squid:UselessImportCheck"/Remove this unused import 'java.io.FileWriter'.(Ã‘ÅÃıÿÿÿÿ8İšÇÌö,

@@ -1,0 +1,15 @@
+
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(«à–¥8ÊõßÌö,
+dsquid:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ù×Ð
+:squid:S1148"#Use a logger to log this exception.( ÉùÞ
+?squid:S1148"#Use a logger to log this exception.(ŽÚ¸ÿÿÿÿÿ
+gsquid:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(õ¬ó­
+Usquid:UselessImportCheck",Remove this unused import 'Task1_3.Task1_3'.(Î¨ó¾üÿÿÿÿ
+dsquid:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(‘‚Ž(
+ksquid:S2095"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(¨ýûðúÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ë•ÖÃ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÇÁ¾äúÿÿÿÿ
+:squid:S1148"#Use a logger to log this exception.(Ð—ë
+Xsquid:S1133	"5Do not forget to remove this deprecated code someday.(ÅòÑûýÿÿÿÿ8£Íò÷,
+\squid:MissingDeprecatedCheck	"(Add the missing @deprecated Javadoc tag.(ÅòÑûýÿÿÿÿ8£Íò÷,

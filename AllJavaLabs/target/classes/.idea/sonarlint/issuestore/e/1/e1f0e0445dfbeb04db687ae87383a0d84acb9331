@@ -1,0 +1,33 @@
+
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(šå¹ù
+]squid:UselessImportCheck"4Remove this unused import 'Task1_2.StringWorkModel'.(øêÁşÿÿÿÿ
+nsquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(¾ÜÉŠûÿÿÿÿ8Ë¿®õö,
+[
+squid:S106H"9Replace this use of System.out or System.err by a logger.(ÌÕÈÇøÿÿÿÿ8¶³œöö,
+\squid:S20957"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¼ıÔÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(½ß 
+Asquid:S1148M"#Use a logger to log this exception.(Ç’Çê8¶³œöö,
+[squid:S21470"DCombine this catch with the one at line 46, which has the same body.(ï­£Ä
+csquid:S2095$"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(âË®‰
+nsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(†’†³ıÿÿÿÿ8·Ä¿Õö,
+Lsquid:S2209("5Change this instance-reference to a static reference.(ÁÃ¼‡
+?squid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+csquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(âË®‰
+?squid:S11481"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Jsquid:S14818"'Remove this unused "sb" local variable.(€ê±Õúÿÿÿÿ8Ë¿®õö,
+8squid:S1659 "!Declare "num" on a separate line.(Ü‹‰¤
+Usquid:UselessImportCheck",Remove this unused import 'Task1_3.Task1_3'.(Î¨ó¾üÿÿÿÿ
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£‚‡˜8Û»Õö,
+[squid:S2147"DCombine this catch with the one at line 22, which has the same body.(ï­£Ä
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ñÏó
+ksquid:S2095E"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ºúê8¶³œöö,
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+hsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(šå¹ù
+nsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(«µ‘»ıÿÿÿÿ8Ë¿®õö,
+Ysquid:S18548"6Remove this useless assignment to local variable "sb".(€ê±Õúÿÿÿÿ8Ë¿®õö,
+msquid:S2095F"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ü£¹å8¶³œöö,
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+[
+squid:S106<"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8Ë¿®õö,

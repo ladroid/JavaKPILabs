@@ -1,0 +1,56 @@
+
+:
+
+task12.txt,f/4/f431dd77f4505c9d2f75f20cae9c991b245d82ea
+8
+test.txt,4/b/4b6fcb2d521ef0fd442a5301e7932d16cc9f375a
+<
+task13_3.ser,e/c/ec516012332cd5011480862669228def5899d73e
+`
+0src/main/java/Task1_3/controller/Controller.java,4/5/457c2306e7ca895582824468ca8504d1e3f94c07
+d
+4src/main/java/Task1_3/inputpatient/InputPatient.java,e/4/e4022e27b44d8f5784e6b1f7e7e498f450c39176
+`
+0src/main/java/Task1_3/menuenum/ReadMenuEnum.java,4/8/48b3d3c2cab1b1479484d101b668eb61e8666fbe
+x
+Hsrc/main/java/Task1_3/writeserializableclass/WriteSerializableClass.java,8/4/84281d3b86f9e6daead97fc1419ae9d18c6eb209
+^
+.src/main/java/Task1_3/read/ReadInfoChoice.java,0/0/00c593cd9a3bf7735f3203f8a320b68fc47b7d5f
+_
+/src/main/java/Task1_3/read/ReadInformation.java,e/1/e1f0e0445dfbeb04db687ae87383a0d84acb9331
+[
++src/main/java/Task1_3/view/PatientView.java,9/c/9c0b9b76da790129d724c70b5133bda821b2b302
+V
+&src/main/java/Task1_3/model/Model.java,4/3/435e63c3deaad2b03b973963726e3ad9039939fc
+R
+"src/main/java/Task2_3/Task2_3.java,8/f/8f0edf17b87f3dd1b99d0d5c17b98bf1ebf9b87f
+Q
+!src/main/java/Task2_3/Points.java,5/6/563f056478da88ceb0f3c4cd1e69126935fd53c0
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+R
+"src/main/java/Task1_3/Task1_3.java,0/8/08bbe006bcdb0c4553beb00865f21105289dfa0f
+Y
+)src/main/java/Task1_3/logger/Logging.java,f/a/fa209b820a3374bd4d6f8bf524b5509ff7ef6b44
+X
+(src/main/java/Task1_3/view/ViewMenu.java,a/a/aae90c01fb313e13d1d3a8ba933001d855a66fd8
+P
+ src/main/java/Task1_1/Model.java,6/d/6d484250af7bc1c62fb483115e151e3bd6e80c2b
+U
+%src/main/java/Task1_1/Controller.java,6/c/6cbdac77b93fa5c601be403c819103fa23d3a845
+R
+"src/main/java/Task1_1/Task1_1.java,4/4/442688777297b244980c54f275bf8ee7712984cf
+O
+src/main/java/Task1_1/View.java,f/5/f508d8f02d41c33d45de532916a8e7a8473fb7f0
+U
+%src/main/java/Task2_3/Controller.java,9/5/95331c82133226f102afb9e99b2757bb84680618
+O
+src/main/java/Task2_3/View.java,5/7/57d3de763d3c119f3893146d9a28fe6ce42c4004
+P
+ src/main/java/Task2_3/Model.java,1/f/1fa7c29674b790524b05aca3a9566bc99e4fe2ea
+V
+&src/main/java/Task1_1/MyException.java,8/8/8889149814d7547ab2007c53133fa2609223a67f
+b
+2src/main/java/Task1_3/exception/InputMismatch.java,c/c/ccc59032bb0b96a3cb810b3102935c93eaeb3e13
+d
+4src/main/java/Task1_3/exception/IllegalArgument.java,d/1/d16ed1f488aa13321fb9dcf580bdbb3b7f457a74

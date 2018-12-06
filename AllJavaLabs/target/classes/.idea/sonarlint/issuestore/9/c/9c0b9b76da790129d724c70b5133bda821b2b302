@@ -1,0 +1,24 @@
+
+[
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ï¥óÎüÿÿÿÿ8¿û¦÷,
+[
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¾Ãœåşÿÿÿÿ8¿û¦÷,
+lsquid:S00116"MRename this field "Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×­ÒÒ8ªü Ìö,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰¢Î²
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ÌŠÀÿÿÿÿÿ8¿û¦÷,
+nsquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(ÆÛ›„úÿÿÿÿ8¿û¦÷,
+[
+squid:S106."9Replace this use of System.out or System.err by a logger.(í´ŒÆúÿÿÿÿ8¿û¦÷,
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ÌóÒ8¿û¦÷,
+qsquid:S00116"RRename this field "Address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ü©8ªü Ìö,
+V
+squid:S106:"9Replace this use of System.out or System.err by a logger.(õèø­8¿û¦÷,
+Msquid:S1948"*Make "viewMenu" transient or serializable.(ş»¶‡ÿÿÿÿÿ8ÿå•ı÷,
+nsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(úÍ¶ñüÿÿÿÿ8ªÖÉñ÷,
+V
+squid:S106C"9Replace this use of System.out or System.err by a logger.(ÉÚÖí8¿û¦÷,
+V
+squid:S1062"9Replace this use of System.out or System.err by a logger.(üŸŒ¹8¿û¦÷,
+Usquid:UselessImportCheck",Remove this unused import 'Task1_3.Task1_3'.(Î¨ó¾üÿÿÿÿ

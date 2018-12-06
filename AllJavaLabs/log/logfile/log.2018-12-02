@@ -1,0 +1,38 @@
+This is my first log4j's statement
+info
+error
+This is my first log4j's statement
+info
+error
+2018-12-02 19:33:46,582  INFO [main] - Task1_3.Task1_3.logging 10 - This is my first log4j's statement
+2018-12-02 19:33:46,586  INFO [main] - Task1_3.Task1_3.logging 11 - info
+2018-12-02 19:33:46,586 ERROR [main] - Task1_3.Task1_3.logging 12 - error
+2018-12-02 20:11:09,715 ERROR [main] - Task1_3.controller.Controller.menu 57 - Incorreect choice. Please try again
+2018-12-02 20:25:28,231 DEBUG [main] - Task1_3.controller.Controller.menu 37 - Start controller
+2018-12-02 20:25:33,420 DEBUG [main] - Task1_3.view.PatientView.input 33 - Start input data
+2018-12-02 20:26:36,958 DEBUG [main] - Task1_3.model.Model.writeToFile 24 - Start method writeToFile()
+2018-12-02 20:26:36,959  INFO [main] - Task1_3.model.Model.writeToFile 26 - Write datas to file
+2018-12-02 20:31:38,693 DEBUG [main] - Task1_3.controller.Controller.menu 35 - Start controller
+2018-12-02 20:31:43,475 DEBUG [main] - Task1_3.view.PatientView.input 33 - Start input data
+2018-12-02 20:32:31,777 DEBUG [main] - Task1_3.model.Model.writeToFile 24 - Start method writeToFile()
+2018-12-02 20:32:31,778  INFO [main] - Task1_3.model.Model.writeToFile 26 - Write datas to file
+2018-12-02 20:35:11,588 DEBUG [main] - Task1_3.controller.Controller.menu 35 - Start controller
+2018-12-02 20:35:21,911 DEBUG [main] - Task1_3.view.PatientView.input 33 - Start input data
+2018-12-02 20:35:37,464 DEBUG [main] - Task1_3.controller.Controller.menu 35 - Start controller
+2018-12-02 20:35:41,857 DEBUG [main] - Task1_3.view.PatientView.input 33 - Start input data
+2018-12-02 20:36:17,199 DEBUG [main] - Task1_3.model.Model.writeToFile 24 - Start method writeToFile()
+2018-12-02 20:36:17,200  INFO [main] - Task1_3.model.Model.writeToFile 26 - Write datas to file
+2018-12-02 20:38:11,500 DEBUG [main] - Task1_3.controller.Controller.menu 38 - Start controller
+2018-12-02 20:38:16,098 DEBUG [main] - Task1_3.view.PatientView.input 33 - Start input data
+2018-12-02 20:38:31,445 DEBUG [main] - Task1_3.controller.Controller.menu 38 - Start controller
+2018-12-02 20:38:33,682 DEBUG [main] - Task1_3.view.PatientView.input 33 - Start input data
+2018-12-02 20:38:45,975 DEBUG [main] - Task1_3.model.Model.writeToFile 24 - Start method writeToFile()
+2018-12-02 20:38:45,976  INFO [main] - Task1_3.model.Model.writeToFile 26 - Write datas to file
+2018-12-02 20:38:55,785 DEBUG [main] - Task1_3.controller.Controller.menu 38 - Start controller
+2018-12-02 20:39:05,673 DEBUG [main] - Task1_3.model.Model.writeSerializable 37 - Start method writeSerializable()
+2018-12-02 20:39:05,673  INFO [main] - Task1_3.model.Model.writeSerializable 39 - Write object to file
+2018-12-02 20:39:05,673 DEBUG [main] - Task1_3.view.PatientView.input 33 - Start input data
+2018-12-02 20:39:18,100 DEBUG [main] - Task1_3.controller.Controller.menu 38 - Start controller
+2018-12-02 20:39:34,968 DEBUG [main] - Task1_3.model.Model.writeSerializable 37 - Start method writeSerializable()
+2018-12-02 20:39:34,968  INFO [main] - Task1_3.model.Model.writeSerializable 39 - Write object to file
+2018-12-02 20:39:34,969 DEBUG [main] - Task1_3.view.PatientView.input 33 - Start input data

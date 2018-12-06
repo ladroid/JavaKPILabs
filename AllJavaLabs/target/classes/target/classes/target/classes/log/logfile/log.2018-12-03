@@ -1,0 +1,4 @@
+2018-12-03 18:11:51,267 DEBUG [main] - Task1_3.controller.Controller.menu 38 - Start controller
+2018-12-03 18:12:10,038 DEBUG [main] - Task1_3.model.Model.writeSerializable 37 - Start method writeSerializable()
+2018-12-03 18:12:10,039  INFO [main] - Task1_3.model.Model.writeSerializable 39 - Write object to file
+2018-12-03 18:12:10,039 DEBUG [main] - Task1_3.view.PatientView.input 33 - Start input data

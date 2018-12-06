@@ -1,0 +1,14 @@
+
+isquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(Õ¶£š8ýÆûï÷,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ñÏó
+i
+squid:S128,"LEnd this switch case with an unconditional break, return or throw statement.(ÎñÊ€8Í–¡öö,
+[
+squid:S106."9Replace this use of System.out or System.err by a logger.(î×’þÿÿÿÿ8ÌÌ±öö,
+¯%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ßªë‚8šÔ“ý÷,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ßÑ—¶8ÑþÄÕö,
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(‘è‘Ÿ8 ÊÆÕö,
+Usquid:UselessImportCheck",Remove this unused import 'Task1_3.Task1_3'.(Î¨ó¾üÿÿÿÿ
+Msquid:S2065"0Remove the "transient" modifier from this field.(ÏÉ/8Î´ý÷,
